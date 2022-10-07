@@ -1,3 +1,3 @@
 def call() {
-  input 'Please select one proceed or abort'
+  input message: 'Do you want to continue', parameters: [booleanParam('select')]
 }
