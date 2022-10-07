@@ -1,3 +1,3 @@
 def call() {
-  sh "input 'Please select one proceed or abort'"
+  "input 'Please select one proceed or abort'"
 }
