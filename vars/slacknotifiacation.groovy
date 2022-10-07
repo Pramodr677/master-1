@@ -1,3 +1,3 @@
-def call(Map config = [:]) {
+def call() {
   slackSend channel: 'jenkinsassign'
 }  
