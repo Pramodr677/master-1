@@ -1,3 +1,3 @@
 def call(Map config = [;]) {
-  sh "git clone ${config.remote_repo} ${config.branch}"
+  sh "git clone ${config.url} ${config.branch}"
 }
